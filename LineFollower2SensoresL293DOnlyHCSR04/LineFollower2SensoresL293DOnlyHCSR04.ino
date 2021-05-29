@@ -55,7 +55,7 @@ void setup()
   while (!Serial);
   BREAK();
  
-  Serial.println("START!");
+  Serial.println("DUDU START!");
 
 }
 int readPing(){
@@ -100,12 +100,12 @@ void DoObstacle(){
       if (distance < 10){
           BREAK(); //Parar
           BACK(); //Ré
-          delay(400);
+          delay(50);
           
           BREAK(); //Parar
  
           LEFT(); //Iniciar giro
-          delay(500);
+          delay(600);
           //Girar
           while(true) {
             

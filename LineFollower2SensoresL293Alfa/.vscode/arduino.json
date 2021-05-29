@@ -1,0 +1,4 @@
+{
+    "sketch": "LineFollower\\LineFollower.ino",
+    "board": "WAV:avr:lardu_328e"
+}
