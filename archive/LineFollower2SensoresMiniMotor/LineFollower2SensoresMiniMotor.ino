@@ -46,8 +46,9 @@ void readSensors() {
 
 void loop() 
 {
- //Branco = 0, Preto = 1
-readSensors();
+  int lastDIR = 0;
+  //Branco = 0, Preto = 1
+  readSensors();
 
   readSensors();
   if (left_sensor == 1 && right_sensor == 0){   
