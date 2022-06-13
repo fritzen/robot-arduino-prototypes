@@ -76,7 +76,7 @@ int readPing(){
     cm=250;
   }
 
-  //Serial.println(cm);
+  Serial.println(cm);
   return cm;
 }
 
